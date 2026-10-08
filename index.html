@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic-Tac-Toe AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <div class="header">
+            <p class="tag">CODSOFT INTERNSHIP - TASK 2</p>
+            <h1>Tic-Tac-Toe AI</h1>
+            <p class="subtitle">
+                Challenge an AI opponent powered by the Minimax algorithm.
+            </p>
+        </div>
+
+        <div class="player-info">
+            <div class="player human-player">
+                <span class="symbol">X</span>
+                <div>
+                    <strong>You</strong>
+                    <small>Human Player</small>
+                </div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="player ai-player">
+                <span class="symbol">O</span>
+                <div>
+                    <strong>AI</strong>
+                    <small>Minimax AI</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-box">
+            <p id="status">Your turn - Choose a cell</p>
+        </div>
+
+        <div class="board" id="board"></div>
+
+        <button id="restartButton" class="restart-button">
+            Restart Game
+        </button>
+
+        <div class="algorithm-info">
+            <h2>About the AI</h2>
+
+            <p>
+                The AI uses the <strong>Minimax algorithm</strong> to evaluate
+                possible future game states and select the optimal move.
+            </p>
+
+            <div class="features">
+                <span>Minimax Algorithm</span>
+                <span>Optimal Decision Making</span>
+                <span>Human vs AI</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>Developed as part of CodSoft Artificial Intelligence Internship</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
